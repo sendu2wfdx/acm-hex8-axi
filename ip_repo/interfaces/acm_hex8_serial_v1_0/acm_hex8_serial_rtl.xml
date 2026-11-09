@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:abstractionDefinition xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+  <spirit:vendor>xiaomeige.com</spirit:vendor><spirit:library>interface</spirit:library>
+  <spirit:name>acm_hex8_serial_rtl</spirit:name><spirit:version>1.0</spirit:version>
+  <spirit:busType spirit:vendor="xiaomeige.com" spirit:library="interface" spirit:name="acm_hex8_serial" spirit:version="1.0"/>
+  <spirit:ports>
+    <spirit:port><spirit:logicalName>DIO</spirit:logicalName><spirit:description>74HC595 serial data</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SCLK</spirit:logicalName><spirit:description>74HC595 shift clock</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>RCLK</spirit:logicalName><spirit:description>74HC595 latch clock</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+  </spirit:ports>
+</spirit:abstractionDefinition>

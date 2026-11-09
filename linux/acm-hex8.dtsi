@@ -1,0 +1,7 @@
+acm_hex8: display@43c00000 {
+	compatible = "xiaomeige,acm-hex8-1.0";
+	reg = <0x43c00000 0x1000>;
+	scan-divider = <6250>;
+	serial-divider = <25>;
+	default-brightness = <255>;
+};

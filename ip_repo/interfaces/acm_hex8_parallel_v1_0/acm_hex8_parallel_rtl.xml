@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:abstractionDefinition xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+  <spirit:vendor>xiaomeige.com</spirit:vendor>
+  <spirit:library>interface</spirit:library>
+  <spirit:name>acm_hex8_parallel_rtl</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busType spirit:vendor="xiaomeige.com" spirit:library="interface" spirit:name="acm_hex8_parallel" spirit:version="1.0"/>
+  <spirit:ports>
+    <spirit:port><spirit:logicalName>SEG_A</spirit:logicalName><spirit:description>Segment A</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_B</spirit:logicalName><spirit:description>Segment B</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_C</spirit:logicalName><spirit:description>Segment C</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_D</spirit:logicalName><spirit:description>Segment D</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_E</spirit:logicalName><spirit:description>Segment E</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_F</spirit:logicalName><spirit:description>Segment F</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_G</spirit:logicalName><spirit:description>Segment G</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>SEG_DP</spirit:logicalName><spirit:description>Decimal point</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>DIGIT_A</spirit:logicalName><spirit:description>74HC238 digit address A</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>DIGIT_B</spirit:logicalName><spirit:description>74HC238 digit address B</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+    <spirit:port><spirit:logicalName>DIGIT_C</spirit:logicalName><spirit:description>74HC238 digit address C</spirit:description><spirit:wire><spirit:onMaster><spirit:presence>required</spirit:presence><spirit:direction>out</spirit:direction></spirit:onMaster></spirit:wire></spirit:port>
+  </spirit:ports>
+</spirit:abstractionDefinition>

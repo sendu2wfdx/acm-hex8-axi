@@ -1,0 +1,17 @@
+.Xil/
+.gen/
+.srcs/
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+*.jou
+*.log
+*.str
+*.xpr
+*.bit
+*.bin
+*.ltx
+vivado_pid*.zip
+vivado_pid*.debug

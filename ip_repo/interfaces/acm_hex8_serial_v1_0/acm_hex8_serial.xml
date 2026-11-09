@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:busDefinition xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+  <spirit:vendor>xiaomeige.com</spirit:vendor><spirit:library>interface</spirit:library>
+  <spirit:name>acm_hex8_serial</spirit:name><spirit:version>1.0</spirit:version>
+  <spirit:directConnection>true</spirit:directConnection><spirit:isAddressable>false</spirit:isAddressable>
+  <spirit:maxMasters>1</spirit:maxMasters><spirit:maxSlaves>0</spirit:maxSlaves>
+  <spirit:description>ACM-HEX8 74HC595 serial control interface</spirit:description>
+</spirit:busDefinition>
